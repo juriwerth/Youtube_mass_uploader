@@ -79,7 +79,7 @@ def bot():
         options = webdriver.ChromeOptions()
 
     # Starting the driver
-    driver = webdriver.Chrome(executable_path='C:/Users/juriw/OneDrive/Desktop/42/coding/projects/py/yt_uploadbot/chromedriver.exe', options=options)
+    driver = webdriver.Chrome(executable_path='chromedriver.exe', options=options)
     driver.get('https://youtube.com/')
     time.sleep(1+rl[0])
     
